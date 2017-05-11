@@ -21,7 +21,7 @@ setup(
     author_email='your@email.com',
     license='Apache License v2',
     package_data={'': ['*.*']},
-    url=None,
+    url='https://github.com/johnsonchak/rqalpha-mod-hello/tree/master',
     install_requires=[str(ir.req) for ir in parse_requirements("requirements.txt", session=False)],#所需的运行环境
     zip_safe=False,
     classifiers=[
